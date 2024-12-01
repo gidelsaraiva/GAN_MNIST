@@ -344,7 +344,7 @@ elif selected == "Imagens":
             image_alterada = G(torch.tensor(formata_vetor_alterado, dtype=torch.float32))  # Imagem com vetor alterado
 
         with col3: 
-            st.info("Imagem Alterada")   
+            st.info("Imagem a ser Alterada")   
             printImages([image_alterada])
             
 elif selected == "Limpa Dados":
